@@ -1,0 +1,257 @@
+.mainContainer{
+
+top: 0;
+bottom: 0;
+  
+}
+
+
+.navbar{
+    background-color: rgb(42, 118, 231);
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.7rem;
+    width: 100%;
+}
+.navbar img{
+    height: 3rem;
+    width: 3rem;
+    
+}
+.menu{
+    padding: 1rem;
+    margin: 5rem;
+    color: aliceblue;
+}
+.menu button{
+    margin: .6rem;
+    background-color: rgb(131, 196, 199);
+    color: rgb(67, 42, 42);
+    border-radius: .6rem;
+    transition: 1s;
+    cursor: pointer;
+}
+.menu button:hover{
+    background-color: rgba(76, 162, 90, 0.741);
+    color: rgb(244, 254, 255);
+}
+
+/* .leftSideContainer{
+    width: 30% ;
+} */
+.rightSideContainer{
+  width: 100%;
+}
+.selectYear{
+    height: 3.2rem;
+    width: 100%;
+    background-color: mediumslateblue;
+    color: rgb(240, 210, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.selectYear h3{
+    text-align: center;
+}
+/* .selectYear{
+    display: block;
+    justify-content: center;
+    align-items: center;
+} */
+.year{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.year button{
+    margin: .2rem;
+    background-color: rgba(33, 11, 8, 0.741);
+    color: rgb(179, 235, 238);
+    border-radius: 10px;
+    transition: 1s;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.year button:hover{
+    background-color: rgb(206, 216, 66);
+    color: aliceblue;
+}
+.graph{
+    margin-inline: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.graph button{
+    margin: .5rem;
+    padding: 2px;
+    background-color: rgba(243, 75, 53, 0.741);
+    color: rgb(229, 248, 249);
+    border-radius: 10px;
+    transition: 1s;
+    /* display: flex;
+    flex-wrap: wrap; */
+    cursor: pointer;
+    text-decoration: none;
+}
+.graph button:hover{
+    text-decoration: none;
+    background-color: rgb(227, 189, 143);
+    color: darkslateblue;
+}
+
+table{
+    margin: 15px;
+    border: 2px solid forestgreen;
+  
+}
+.table table tbody{
+    font-size: 5px;
+    color: blue;
+}
+th{
+    border-bottom: 1px solid black;
+    font-size: 10px;
+    color: red;
+}
+td{
+    border-bottom: 1px solid black;
+    font-size: 8px;
+    font-weight: 20px;
+    font-family: sans-serif;
+}
+footer{
+    height: 4rem;
+    background-color: rgb(77, 79, 226);
+    color: aliceblue;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mainFoot{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+.mainFoot a{
+    color: rgb(206, 204, 220);
+    text-decoration: none;
+    
+}
+.boxItem{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+.box1{
+    margin: 10px;
+}
+.analysis{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50px;
+}
+.para{
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkblue;
+    font-size: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.para p{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   margin-inline: 50px;
+}
+.img img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 15px;
+}
+.citylist{
+    list-style: none;
+}
+.citylist li{
+    display: flexbox;
+    font-weight: 15px;
+    list-style: none;
+    font-size: 10px;
+}
+.app{
+    display: flex;
+}
+.title{
+    font-size: 25px;
+    margin: 20px;
+}
+.heading{
+    margin: 50px;
+    display: inline-block;
+    justify-items: center;
+    align-items: center;
+}
+.pie{
+    height: 250px;
+    width: 250px;
+}
+.chartjs{
+    margin: 20px;
+}
+
+@media screen and (max-width: 650px){
+  .app{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .analysis{
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar{
+    height: 3.9rem;
+    flex-direction: row;
+  }
+  .table table tbody{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+    width: fit-content;
+  }
+  .table table tbody td{
+    font-size: 7px;
+    font-weight: 10px;
+    margin: 2px;
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 700px){
+    .table table tbody td{
+        font-size: 7px;
+        font-weight: 10px;
+        margin: 2px;
+        padding: 2px;
+      }
+}

@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from './Header';
 import Footer from "./Footer";
-import data from "../iplData";
 import {Link} from "react-router-dom";
 import Box from '@mui/material/Box';
 import "./Table.css";
@@ -11,20 +10,6 @@ import dataimgtwo from "./imagesipl.jpg"
 
 
 export default function OverView() {
-  const [ipl, setIpl]=useState([]);
-  const [totalMatch, setTotalMatch]=useState(0);
-
-  const totalmatch1=()=>{
-     const newData= data.length;
-     console.log(newData);
-     setTotalMatch(newData)
-  }
-  const run = () => {
-   const newData =data.filter((item)=>item.city == "cuttack")
-   console.log(newData)
-   setIpl(newData);
-  }
-
   return (
     <>
     <div>

@@ -5,7 +5,6 @@ import Refer from "./Components/Refer";
 import Overview from "./Components/OverView";
 import Profile from "./Components/Profile";
 import Graph from "./Components/GraphFormat";
-import Home from "./Components/Home";
 
 function App() {
   return (
@@ -19,11 +18,8 @@ function App() {
         <Route path="/table" element={<TableFormat />} />
         <Route path="/" element={<Overview />} />
       </Routes>
-      </BrowserRouter>
-      
-   </>
-    
-    
+      </BrowserRouter>  
+   </>  
   );
 }
 

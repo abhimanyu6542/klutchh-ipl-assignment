@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/iplassign/static/css/main.6424af67.css",
-    "main.js": "/iplassign/static/js/main.514ed9cf.js",
-    "static/js/787.7f914ba3.chunk.js": "/iplassign/static/js/787.7f914ba3.chunk.js",
-    "static/media/images.jpg": "/iplassign/static/media/images.4d2e4077f3545f610e95.jpg",
-    "index.html": "/iplassign/index.html",
-    "main.6424af67.css.map": "/iplassign/static/css/main.6424af67.css.map",
-    "main.514ed9cf.js.map": "/iplassign/static/js/main.514ed9cf.js.map",
-    "787.7f914ba3.chunk.js.map": "/iplassign/static/js/787.7f914ba3.chunk.js.map"
+    "main.css": "/klutchh-ipl-assignment/static/css/main.6424af67.css",
+    "main.js": "/klutchh-ipl-assignment/static/js/main.0aed09ac.js",
+    "static/js/787.7f914ba3.chunk.js": "/klutchh-ipl-assignment/static/js/787.7f914ba3.chunk.js",
+    "static/media/images.jpg": "/klutchh-ipl-assignment/static/media/images.4d2e4077f3545f610e95.jpg",
+    "index.html": "/klutchh-ipl-assignment/index.html",
+    "main.6424af67.css.map": "/klutchh-ipl-assignment/static/css/main.6424af67.css.map",
+    "main.0aed09ac.js.map": "/klutchh-ipl-assignment/static/js/main.0aed09ac.js.map",
+    "787.7f914ba3.chunk.js.map": "/klutchh-ipl-assignment/static/js/787.7f914ba3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6424af67.css",
-    "static/js/main.514ed9cf.js"
+    "static/js/main.0aed09ac.js"
   ]
 }
